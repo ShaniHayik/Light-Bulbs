@@ -1,0 +1,49 @@
+.fadeOut {
+  opacity: 0;
+  width: 0;
+  height: 0;
+  transition: width 0.05s 0.05s, height 0.05s 0.05s, opacity 0.05s;
+}
+.fadeIn {
+  opacity: 1;
+  width: 100px;
+  height: 100px;
+  transition: width 0.05s, height 0.05s, opacity 0.05s 0.05s;
+}
+.btn {
+  margin: 20px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 20%;
+}
+
+.game-over {
+  background-color: rgb(243, 159, 159);
+  opacity: 0.8;
+}
+
+.red {
+  background-color: rgb(211, 75, 154);
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.white {
+  background-color: white;
+}
+
+.orange {
+  background-color: orange;
+}

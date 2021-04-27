@@ -1,0 +1,99 @@
+.fadeOut{
+    opacity:0;
+    width:0;
+    height:0;
+    transition: width 0.05s 0.05s, height 0.05s 0.05s, opacity 0.05s;
+
+}
+.fadeIn{
+    opacity:1;
+    width:100px;
+    height:100px;
+    transition: width 0.05s, height 0.05s, opacity 0.05s 0.05s;
+
+}
+body {
+ text-align: center;
+ background-color: #e0ecf7;
+}
+
+#title {
+ font-family: 'Press Start 2P', Fantasy;
+ font-size: 3rem;
+ margin:  1%;
+ color: #374a8a;
+}
+
+
+.listScore {
+    font-family: Fantasy;
+    font-size: 3rem;
+    margin:  1%;
+    color: #374a8a;
+   }
+
+
+#score {
+    font-family: 'Press Start 2P', Fantasy;
+    font-size: 3rem;
+    margin:  1%;
+    color: #374a8a;
+   }
+
+
+#name {
+    font-family: Fantasy;
+    font-size: 2.5rem;
+    margin:  1%;
+    color: #374a8a;
+   }
+
+.container {
+ display: block;
+ width: 75%;
+ margin: auto;
+
+}
+
+.btn {
+ margin: 25px;
+ display: inline-block;
+ height: 200px;
+ width: 200px;
+ border: 10px solid #438dd3;
+ border-radius: 20%;
+}
+
+.game-over {
+ background-color: rgb(204, 152, 152);
+ opacity: 0.8;
+}
+
+.red {
+ background-color: rgb(204, 97, 190);
+}
+
+.white {
+ background-color: white;
+}
+
+.orange {
+ background-color: rgb(233, 180, 81);
+}
+
+.green {
+ background-color: rgb(44, 231, 44);
+}
+
+.blue {
+ background-color: rgb(131, 131, 218);
+}
+
+.yellow {
+ background-color: yellow;
+}
+
+.pressed {
+ box-shadow: 0 0 20px white;
+ background-color: grey;
+}
